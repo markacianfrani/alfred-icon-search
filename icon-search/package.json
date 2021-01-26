@@ -1,0 +1,37 @@
+{
+  "name": "@mark.cianfrani/icon-search",
+  "version": "1.0.0",
+  "description": "Search icons",
+  "main": "src/index.js",
+  "bin": {
+    "@mark.cianfrani/icon-search": "bin/icon-search",
+    "icon-search": "bin/icon-search"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "keywords": [
+    "cli",
+    "icon-search"
+  ],
+  "author": "mark cianfrani",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "esm": "^3.2.18",
+    "inquirer": "^7.0.1",
+    "sharp": "^0.24.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "user.workflow.35b0f54c-d9e7-48b7-9aad-6dc33587fd62",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ionicon": "bin/ionicon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^0.9.1",
+    "arg": "^4.1.2",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.1",
+    "minimist": "^1.2.0"
+  }
+}
